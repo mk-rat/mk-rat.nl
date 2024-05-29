@@ -8,6 +8,7 @@
 
   let forms = document.querySelectorAll('.php-email-form');
 
+  /*
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
       event.preventDefault();
@@ -48,6 +49,7 @@
       }
     });
   });
+  */
 
   function php_email_form_submit(thisForm, action, formData) {
     fetch(action, {
