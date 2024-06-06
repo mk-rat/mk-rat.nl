@@ -1425,13 +1425,15 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .kvk {
   margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .kvk:hover i  {
   background: #7cc576;
   color: #fff;
 }
